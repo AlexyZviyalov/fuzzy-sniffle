@@ -42,6 +42,7 @@ int const BUTTON_HEIGH = 45;
 - (void)setupIconViewTriangle {
     self.iconViewTriangle = [[IconViewTriangle alloc] initWithFrame:CGRectMake(250, 200, ICON_SIZE, ICON_SIZE)];
     self.iconViewTriangle.backgroundColor = UIColor.whiteColor;
+    //1224
 
     [self.view addSubview:self.iconViewTriangle];
 
